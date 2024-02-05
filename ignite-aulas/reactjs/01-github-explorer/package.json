@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "convert": "babel src/index.jsx --out-file dist/bundle.js"
+    "convert": "babel src/index.jsx --out-file dist/bundle.js",
+    "run-webpack": "webpack"
   },
   "keywords": [],
   "author": "",
